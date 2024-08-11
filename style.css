@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:wght@900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   /* margin: 0;
   padding: 0;
@@ -57,14 +58,14 @@ nav a {
   color: #fff;
   margin-left: 4rem;
   font-weight: 500;
-  transition: 0.3s ease;
+  transition: transform 0.3s ease;
   border-bottom: 3px solid transparent;
 }
 
 nav a:hover,
 nav a:active {
-  color: rgb(117, 4, 4);
-  border-bottom: 3px solid brown;
+  color: rgb(224, 65, 65);
+  border-bottom: 3px solid rgb(215, 120, 120);
 }
 
 .menu-toggle {
@@ -101,9 +102,12 @@ nav a:active {
 .sidebar a {
   color: #d8d3d3;
   text-decoration: none;
+  font-family: "Noto serif";
+  font-size: 25px;
   text-align: center;
   padding: 10px;
   display: inline-block;
+  margin-top: 0.8rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .sidebar {
@@ -133,7 +137,7 @@ nav a:active {
   }
 
   .sidebar a {
-    font-size: small;
+    font-size: 0.6rem;
   }
 
   .sidebar.open {
@@ -208,7 +212,7 @@ span {
   align-items: center;
   width: 4rem;
   height: 4rem;
-  /* background-color: transparent; */
+  background-color: transparent;
   border: 0.2rem solid #b74b4b;
   font-size: 2rem;
   border-radius: 50%;
