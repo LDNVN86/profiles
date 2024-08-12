@@ -6,7 +6,7 @@ menuToggle.addEventListener("click", () => {
     sidebar.style.animation = "slideOut 0.3s forwards";
     setTimeout(() => {
       sidebar.classList.remove("open");
-    }, 300); // Đảm bảo class "open" được xóa sau khi animation kết thúc
+    }, 200); 
   } else {
     sidebar.classList.add("open");
     sidebar.style.animation = "slideIn 0.3s forwards";
