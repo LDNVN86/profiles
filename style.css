@@ -375,6 +375,16 @@ span {
   .Logo {
     font-size: 150%;
   }
+  .lockscreen{
+    position: fixed;
+    width: 90px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 128, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 9999;  }
 }
 .bgVideo {
   position: fixed;
@@ -396,7 +406,6 @@ span {
   margin-top: 5%;
   background-color: transparent;
   text-align: center;
-  padding: 10px;
   border: 3px solid #b74b4b;
   color: transparent;
   background-color: #fff;
