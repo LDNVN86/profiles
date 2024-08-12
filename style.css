@@ -118,7 +118,7 @@ nav a:active {
 .menu-toggle {
   transform: translateX(100%);
 }
-@media (max-width: 100%) {
+@media (max-width: 995px) {
   .menu-toggle {
     display: block;
     justify-content: left;
@@ -326,7 +326,7 @@ span {
   }
 }
 .bgVideo {
-  position: absolute;
+  position: fixed;
   right: 0;
   left: 0;
   min-width: 100%;
@@ -335,5 +335,4 @@ span {
   filter: brightness(0.4);
   object-fit: cover;
   overflow: hidden;
-  margin-left: -15px;
 }
