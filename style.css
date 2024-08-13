@@ -66,7 +66,7 @@ nav {
   height: 60px;
   background-color: transparent;
   width: 50%;
-  margin-right:96px ;
+  margin-right: 96px;
 }
 
 nav a {
@@ -333,8 +333,9 @@ span {
   overflow: hidden;
 }
 .lockscreen {
-  position: absolute;
-  top: 0;
+  position: fixed;
+  padding: 20px;
+  top: 100px;
   right: 0;
   z-index: 9999;
   margin-right: 2%;
@@ -354,6 +355,7 @@ span {
     linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
   -webkit-background-clip: text;
   transition: transform 3s blur();
+  font-size: 20px;
 }
 @media (max-width: 1000px) {
   .home {
@@ -367,7 +369,7 @@ span {
     margin: 3rem 4rem;
   }
 
-  span.name{
+  span.name {
     font-size: 100px;
   }
   .home.home-content h3 {
@@ -409,5 +411,29 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+  }
+  .lockscreen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    margin-right: 3.5%;
+    margin-top: 25%;
+    background-color: transparent;
+    text-align: center;
+    border: 3px solid #b74b4b;
+    color: transparent;
+    background-color: #fff;
+    background-clip: text;
+    background-image: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ),
+      linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    -webkit-background-clip: text;
+    transition: transform 3s blur();
+    font-size: 15px;
   }
 }
