@@ -6,7 +6,7 @@ menuToggle.addEventListener("click", () => {
     sidebar.style.animation = "slideOut 0.3s forwards";
     setTimeout(() => {
       sidebar.classList.remove("open");
-    }, 200);
+    }, 10);
   } else {
     sidebar.classList.add("open");
     sidebar.style.animation = "slideIn 0.3s forwards";
