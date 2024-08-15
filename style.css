@@ -53,6 +53,18 @@ header {
   padding: 0 10px;
   transition: transform 0.5s ease;
   font-style: italic;
+  animation: div__logo .8s ease;
+}
+
+@keyframes div__logo{
+  from{
+    opacity: 0;
+    transform: translateY(-150%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .Logo:hover {
@@ -78,6 +90,18 @@ nav a {
   transition: transform 0.3s ease;
   border-bottom: 3px solid transparent;
   text-transform: uppercase;
+  animation: nav__home .8s ease;
+}
+
+@keyframes nav__home{
+  from{
+    opacity: 0;
+    transform: translateY(-250%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 nav a:hover,
@@ -151,6 +175,18 @@ section {
   background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
   background-clip: text;
   -webkit-background-clip: text;
+  animation: home-contend__h1 .85s ease;
+}
+
+@keyframes home-contend__h1{
+  from{
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .home-content span {
@@ -191,7 +227,20 @@ span {
   cursor: pointer;
   transition: 0.2s linear;
   border: 10px double blue;
+  animation: nav__img .8s ease;
 }
+
+@keyframes nav__img{
+  from{
+    opacity: 0;
+    transform: translateX(-150%);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 
 .home-img img:hover {
   font-size: 1.8rem;
@@ -214,6 +263,17 @@ span {
   border-radius: 50%;
   margin: 3rem 1.5rem 3rem 0;
   transition: transform 0.5s ease;
+  animation: social__icon 0.8s ease;
+}
+
+@keyframes social__icon{
+  from{
+    opacity: 0;
+    transform: translateX(-600%);
+  }to{
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .fa-youtube {
@@ -250,7 +310,20 @@ span {
   font-weight: 700;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  animation: typing-test__hireme 0.8s ease;
 }
+
+@keyframes typing-test__hireme{
+  from{
+    opacity: 0;
+    transform: translateY(200%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .btn:hover {
   color: #fff;
@@ -354,9 +427,23 @@ span {
     linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
     linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
   -webkit-background-clip: text;
-  transition: transform 3s blur();
   font-size: 20px;
+  animation: nav__lockscreen 0.5s ease;
 }
+
+@keyframes nav__lockscreen{
+  from{
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
 @media (max-width: 1000px) {
   .home {
     gap: 4rem;
