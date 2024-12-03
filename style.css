@@ -53,15 +53,15 @@ header {
   padding: 0 10px;
   transition: transform 0.5s ease;
   font-style: italic;
-  animation: div__logo .8s ease;
+  animation: div__logo 0.8s ease;
 }
 
-@keyframes div__logo{
-  from{
+@keyframes div__logo {
+  from {
     opacity: 0;
     transform: translateY(-150%);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateY(0);
   }
@@ -90,15 +90,15 @@ nav a {
   transition: transform 0.3s ease;
   border-bottom: 3px solid transparent;
   text-transform: uppercase;
-  animation: nav__home .8s ease;
+  animation: nav__home 0.8s ease;
 }
 
-@keyframes nav__home{
-  from{
+@keyframes nav__home {
+  from {
     opacity: 0;
     transform: translateY(-250%);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateY(0);
   }
@@ -175,15 +175,15 @@ section {
   background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
   background-clip: text;
   -webkit-background-clip: text;
-  animation: home-contend__h1 .85s ease;
+  animation: home-contend__h1 0.85s ease;
 }
 
-@keyframes home-contend__h1{
-  from{
+@keyframes home-contend__h1 {
+  from {
     opacity: 0;
     transform: translateX(50%);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateX(0);
   }
@@ -227,20 +227,19 @@ span {
   cursor: pointer;
   transition: 0.2s linear;
   border: 10px double blue;
-  animation: nav__img .8s ease;
+  animation: nav__img 0.8s ease;
 }
 
-@keyframes nav__img{
-  from{
+@keyframes nav__img {
+  from {
     opacity: 0;
     transform: translateX(-150%);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
 
 .home-img img:hover {
   font-size: 1.8rem;
@@ -266,11 +265,12 @@ span {
   animation: social__icon 0.8s ease;
 }
 
-@keyframes social__icon{
-  from{
+@keyframes social__icon {
+  from {
     opacity: 0;
     transform: translateX(-600%);
-  }to{
+  }
+  to {
     opacity: 1;
     transform: translateX(0);
   }
@@ -313,17 +313,16 @@ span {
   animation: typing-test__hireme 0.8s ease;
 }
 
-@keyframes typing-test__hireme{
-  from{
+@keyframes typing-test__hireme {
+  from {
     opacity: 0;
     transform: translateY(200%);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 
 .btn:hover {
   color: #fff;
@@ -431,18 +430,16 @@ span {
   animation: nav__lockscreen 0.5s ease;
 }
 
-@keyframes nav__lockscreen{
-  from{
+@keyframes nav__lockscreen {
+  from {
     opacity: 0;
     transform: translateX(100%);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
-
 
 @media (max-width: 1000px) {
   .home {
