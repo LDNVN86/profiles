@@ -1,0 +1,157 @@
+html {
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Ceviche One", system-ui;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 995px) {
+  body {
+    display: grid;
+  }
+}
+
+@keyframes Namegame {
+  0% {
+    content: " ";
+  }
+  7% {
+    content: "G";
+  }
+  14% {
+    content: "GE";
+  }
+  21% {
+    content: "GEN";
+  }
+  28% {
+    content: "GENS";
+  }
+  35% {
+    content: "GENSH";
+  }
+  42% {
+    content: "GENSHI";
+  }
+  49% {
+    content: "GENSHIN";
+  }
+  56% {
+    content: "GENSHIN ";
+  }
+  63% {
+    content: "GENSHIN I";
+  }
+  70% {
+    content: "GENSHIN IM";
+  }
+  77% {
+    content: "GENSHIN IMP";
+  }
+  84% {
+    content: "GENSHIN IMPA";
+  }
+  91% {
+    content: "GENSHIN IMPAC";
+  }
+  100% {
+    content: "GENSHIN IMPACT";
+  }
+}
+
+video {
+  position: fixed;
+  right: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: brightness(0.7);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+div {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  float: left;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20%;
+}
+
+div:hover {
+  transform: skew(2deg);
+  transition: transform 1s linear;
+  box-shadow: 0 0 25px white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 5px solid black;
+  margin-top: 50px;
+  user-select: none;
+}
+img:hover {
+  color: #fff;
+  background-color: transparent;
+  transform: scale(1.2);
+  transition: transform 1s ease;
+  box-shadow: 0 0 25px white;
+}
+
+ul {
+  padding: 0px;
+  justify-items: center;
+}
+
+ul li {
+  color: aqua;
+  font-size: 20px;
+}
+
+p {
+  font-size: 35px;
+  color: transparent;
+  background-clip: text;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  user-select: none;
+}
+
+div.Name-Game-Genshin-Impact {
+  background-image: linear-gradient(0, rgba(50, 76, 74, 0.2), rgba(2, 3, 4));
+}
+
+div img.Genshin-Impact-Logo {
+  border-radius: 100%;
+  border: 5px solid black;
+}
+
+div.Name-Game-HSR {
+  background-image: linear-gradient(0, rgba(227, 50, 50, 0.2), rgba(2, 3, 4));
+}
+
+div.Name-Game-WW {
+  background-image: linear-gradient(0, rgba(18, 199, 18, 0.2), rgba(2, 3, 4));
+}
