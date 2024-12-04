@@ -69,6 +69,24 @@ body {
   }
 }
 
+@keyframes FancyAnimation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(15deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(-15deg) scale(1.2);
+  }
+  75% {
+    transform: rotate(10deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
 video {
   position: fixed;
   right: 0;
@@ -93,8 +111,10 @@ div {
 }
 
 div:hover {
-  transform: skew(2deg);
+  /*transform: skewY(-2deg);
   transition: transform 1s linear;
+  box-shadow: 0 0 25px white;*/
+  animation: FancyAnimation 4.5s ease-in-out infinite;
   box-shadow: 0 0 25px white;
 }
 

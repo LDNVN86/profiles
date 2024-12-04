@@ -381,11 +381,11 @@ span {
 @keyframes words {
   0%,
   40% {
-    content: " CODER PYTHON";
+    content: " CODER FULL-STACK";
   }
   41%,
   70% {
-    content: " CODER JAVASCRIPT";
+    content: " CODER Data Structures & Algorithms";
   }
   71%,
   100% {
